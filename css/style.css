@@ -20,3 +20,9 @@
 .center{
   align-items: center;
 }
+
+.box{
+  border: 20px;
+  background: cyan;
+  border-radius: 25px;
+}
