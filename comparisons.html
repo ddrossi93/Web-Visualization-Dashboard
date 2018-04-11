@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Web Visualiztion Dashboard</title>
+
+  <!-- import css -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-default" role="navigation">
+    <a class="navbar-brand" href="#">Lattitude</a>
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li role="presentation" class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+             Plots <span class="caret"></span>
+           </a>
+          <ul class="dropdown-menu">
+            <li><a href="plot1.html">Plot 1</a></li>
+            <li><a href="plot2.html">Plot 2</a></li>
+            <li><a href="plot3.html">Plot 3</a></li>
+            <li><a href="plot4.html">Plot 4</a></li>
+          </ul>
+        </li>
+        <li><a href="#about">Comparison</a></li>
+        <li><a href="#contact">Data</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="content">
+    <h1>Comparisons: Lattitude vs X</h1>
+
+    <!-- TODO: add containers -->
+    <div class="container-fluid">
+
+        <!-- TODO: add alt and hrefs -->
+        <!-- TODO: add container -->
+        <div class="col-xs-10 col-sm-3 col-md-8 col-lg-4 col-lg-offset-2">
+          <a href="#" class="thumbnail">
+                <img src="images/tempvlat.png" alt="...">
+              </a>
+          <a href="#" class="thumbnail">
+                <img src="images/humidityvslat.png" alt="...">
+              </a>
+        </div>
+        <div class="col-xs-10 col-sm-3 col-md-8 col-lg-4 col-lg-offset-">
+          <a href="#" class="thumbnail">
+                <img src="images/windvslat.png" alt="...">
+              </a>
+          <a href="#" class="thumbnail">
+                <img src="images/cloudsvslat.png" alt="...">
+              </a>
+        </div>
+      </div>
+    </div>
+
+    <div id="footer" class="footer">
+      <footer>
+        <p>Developed by Dylan Rossi &#169;2018</p>
+      </footer>
+    </div>
+</body>
+
+</html>
